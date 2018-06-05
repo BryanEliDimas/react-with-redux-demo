@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import MostBasicWithNoArguments from './components/MostBasicWithNoArguments'
+import WithStateProps from './components/WithStateProps'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <h1>App</h1>
 
         <MostBasicWithNoArguments />
+        <WithStateProps />
       </div>
     );
   }
